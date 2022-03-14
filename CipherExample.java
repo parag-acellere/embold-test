@@ -8,3 +8,4 @@ Cipher c = Cipher.getInstance("DES");
 } catch (NoSuchAlgorithmException|NoSuchPaddingException e) {
 logger.error("Invalid algorithm",e);
 }
+}}
