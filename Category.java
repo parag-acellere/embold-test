@@ -24,7 +24,6 @@ public class Category extends Vehicle implements NewInterface {
         this.category=category;
     }
 
-    private int m_variable;
 
     public void bar(String m_name) {
         int m_val = 42;
@@ -57,7 +56,6 @@ public class Category extends Vehicle implements NewInterface {
         else
             this.x = x - 1;
 
-        System.out.println("X and Y are different");
         return false;
     }
 
